@@ -25,5 +25,5 @@ A simple Hangman game built with HTML, CSS, and JavaScript.
 
 ## Contact
 - GitHub: [@Jesust9140](https://github.com/Jesust9140)
-- Linkend: [@Jesust9140](inkedin.com/in/jesust9140/)
+- Linkend: [@Jesust9140](linkedin.com/in/jesust9140/)
 - Email: Jesust9140@proton.me
