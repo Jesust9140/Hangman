@@ -14,7 +14,7 @@ A simple Hangman game built with HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Deployed Game
-[Play the game here!](https://your-deployed-link.com)
+[Play the game here!]([https://your-deployed-link.com](https://jesust9140.github.io/Hangman/))
 
 ## What I need to do to make the game better 
 - Add sound effects for correct/incorrect guesses.
