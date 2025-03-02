@@ -88,11 +88,8 @@ const Hangman = (function () {
   
     // Event listeners
     guessInput.addEventListener("input", (e) => {
-      const letter = e.target.value.toUpperCase();
-      if (/^[A-Z]$/.test(letter)) {
-        guess(letter);
-        e.target.value = "";
-      }
+      guess(e.target.value.toUpperCase());
+      e.target.value = "";
     });
   
     resetButton.addEventListener("click", init);
