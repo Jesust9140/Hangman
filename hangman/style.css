@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #hangman-figure {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 20px auto;
+  }
+  
+  #hangman-figure div {
+    position: absolute;
+    background-color: #333;
+    display: none;
+  }
+  
+  #rope { width: 2px; height: 50px; top: 0; left: 50%; transform: translateX(-50%); }
+  #head { width: 50px; height: 50px; border-radius: 50%; top: 50px; left: 50%; transform: translateX(-50%); }
+  #body { width: 2px; height: 80px; top: 100px; left: 50%; transform: translateX(-50%); }
+  #left-arm { width: 2px; height: 50px; top: 110px; left: 40%; transform: rotate(-45deg); }
+  #right-arm { width: 2px; height: 50px; top: 110px; left: 60%; transform: rotate(45deg); }
+  #left-leg { width: 2px; height: 50px; top: 180px; left: 40%; transform: rotate(-45deg); }
+  #right-leg { width: 2px; height: 50px; top: 180px; left: 60%; transform: rotate(45deg); }
+  
+  #word-display {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    margin: 20px 0;
+  }
+  
+  #guessed-letters {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  #message {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #d9534f;
+  }
+  
+  #guess-input {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  #reset-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #reset-button:hover {
+    background-color: #4cae4c;
+  }
